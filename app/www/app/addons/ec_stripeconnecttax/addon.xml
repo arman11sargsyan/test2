@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+   <id>ec_stripeconnecttax</id>
+   <version>1.0</version>
+   <priority>7000</priority>
+   <position>0</position>
+   <status>active</status>
+   <has_icon>Y</has_icon>
+   <default_language>en</default_language>
+   <supplier>Ecommand</supplier>
+   <supplier_link>https://ecommand.co.uk</supplier_link>
+   <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+<queries> 
+   <item>ALTER TABLE `?:vendor_plans` ADD `plan_taxapply` INT NOT NULL DEFAULT '0', ADD `plan_taxname` VARCHAR(250) NOT NULL AFTER `plan_taxapply`, ADD `plan_taxcommission` DECIMAL(12,2) NOT NULL DEFAULT '0.00' AFTER `plan_taxname`, ADD `plan_taxfixed_commission` DECIMAL(12,2) NOT NULL DEFAULT '0.00' AFTER `plan_taxcommission`;</item>
+
+   <item>ALTER TABLE `?:vendor_payouts` ADD `payout_taxapply` INT NOT NULL DEFAULT '0', ADD `payout_taxname` VARCHAR(250) NOT NULL AFTER `payout_taxapply`, ADD `payout_taxcommission` DECIMAL(12,2) NOT NULL AFTER `payout_taxname`, ADD `payout_taxfixed_commission` DECIMAL(12,2) NOT NULL AFTER `payout_taxcommission`, ADD `payout_totalcommission` DECIMAL(12,2) NOT NULL AFTER `payout_taxfixed_commission`; </item>
+		
+		<item for="uninstall">ALTER TABLE  `?:vendor_plans` DROP `plan_taxapply`</item>
+		<item for="uninstall">ALTER TABLE  `?:vendor_plans` DROP `plan_taxname`</item>
+		<item for="uninstall">ALTER TABLE  `?:vendor_plans` DROP `plan_taxcommission`</item>
+		<item for="uninstall">ALTER TABLE  `?:vendor_plans` DROP `plan_taxfixed_commission`</item>
+
+		<item for="uninstall">ALTER TABLE  `?:vendor_plans` DROP `payout_taxapply`</item>
+		<item for="uninstall">ALTER TABLE  `?:vendor_plans` DROP `payout_taxname`</item>
+		<item for="uninstall">ALTER TABLE  `?:vendor_plans` DROP `payout_taxcommission`</item>
+		<item for="uninstall">ALTER TABLE  `?:vendor_plans` DROP `payout_taxfixed_commission`</item>
+		<item for="uninstall">ALTER TABLE  `?:vendor_plans` DROP `payout_totalcommission`</item>
+    </queries>
+</addon>

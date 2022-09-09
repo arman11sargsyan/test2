@@ -1,0 +1,450 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::wk_woocommerce"
+msgid "WooCommerce Connector"
+msgstr "WooCommerce Connector"
+
+msgctxt "Addons::description::wk_woocommerce"
+msgid "Admin can sync his product category and orders in a simple way"
+msgstr "Администратор может синхронизировать свою категорию продуктов и заказы простым способом"
+
+msgctxt "Languages::wk_woocommerce_menu_description"
+msgid "Manage and view WooCommerce store to map your data with cs-cart"
+msgstr "Управление и просмотр магазина WooCommerce для сопоставления ваших данных с помощью cs-cart"
+
+msgctxt "Languages::wk_woocommerce"
+msgid "WooCommerce Connector"
+msgstr "WooCommerce Connector"
+
+msgctxt "Languages::woocommerce_shop_details"
+msgid "WooCommerce shop detail"
+msgstr "WooCommerce магазин подробно"
+
+msgctxt "Languages::wk_woocommerce.consumer_key"
+msgid "Consumer Key"
+msgstr "Ключ потребителя"
+
+msgctxt "Languages::wk_woocommerce.consumer_key_help"
+msgid "WooCommerce Consumer Key."
+msgstr "Ключ потребителя WooCommerce."
+
+msgctxt "Languages::wk_woocommerce.consumer_secret"
+msgid "Consumer Secret"
+msgstr "Потребительский секрет"
+
+msgctxt "Languages::wk_woocommerce.consumer_secret_help"
+msgid "WooCommerce Consumer Secret."
+msgstr "Потребительский секрет WooCommerce."
+
+msgctxt "Languages::wk_woocommerce.app_name"
+msgid "App name"
+msgstr "Имя приложения"
+
+msgctxt "Languages::wk_woocommerce.app_name_help"
+msgid "WooCommerce app name."
+msgstr "Название приложения WooCommerce."
+
+msgctxt "Languages::wk_woocommerce.store_url"
+msgid "Store URL"
+msgstr "URL магазина"
+
+msgctxt "Languages::wk_woocommerce.store_url_help"
+msgid "WooCommerce Store URL"
+msgstr "URL магазина WooCommerce"
+
+msgctxt "Languages::add_woocommerce_merchant"
+msgid "Add WooCommerce merchant"
+msgstr "Добавить продавца WooCommerce"
+
+msgctxt "Languages::edit_woocommerce_merchant"
+msgid "Edit WooCommerce merchant"
+msgstr "Редактировать WooCommerce Merchant"
+
+msgctxt "Languages::woocommerce_authenticate"
+msgid "Authenticate"
+msgstr "проверять подлинность"
+
+msgctxt "Languages::manage_woocommerce_accounts"
+msgid "Manage WooCommerce accounts"
+msgstr "Управление учетными записями WooCommerc"
+
+msgctxt "Languages::app_name"
+msgid "App name"
+msgstr "Имя приложения"
+
+msgctxt "Languages::manage_woocommerce_products"
+msgid "Manage products"
+msgstr "Управление продуктами"
+
+msgctxt "Languages::manage_woocommerce_orders"
+msgid "Manage Orders"
+msgstr "Управление заказами"
+
+msgctxt "Languages::manage_shippings_mapping"
+msgid "Shipping mapping"
+msgstr "Карта доставки"
+
+msgctxt "Languages::manage_payment_mapping"
+msgid "Payment method mapping"
+msgstr "Отображение способа оплаты"
+
+msgctxt "Languages::manage_category_mapping"
+msgid "Category mapping"
+msgstr "Отображение категории"
+
+msgctxt "Languages::manage_feature_mapping"
+msgid "Features mapping"
+msgstr "Особенности картирования"
+
+msgctxt "Languages::woo_delete_account"
+msgid "Delete account"
+msgstr "Удалить аккаунт"
+
+msgctxt "Languages::woo_default_order_status"
+msgid "Default order status"
+msgstr "Статус заказа по умолчанию"
+
+msgctxt "Languages::woo_payment_processor"
+msgid "Payment processor"
+msgstr "Платежной системы"
+
+msgctxt "Languages::payment_processor_help"
+msgid "Payment processor"
+msgstr "Платежной системы"
+
+msgctxt "Languages::woo_shipping_method"
+msgid "Shipping method"
+msgstr "Способ доставки"
+
+msgctxt "Languages::shipping_method_help"
+msgid "Shipping method"
+msgstr "Способ доставки"
+
+msgctxt "Languages::woo_default_cscart_category"
+msgid "Default CS-Cart category"
+msgstr "Категория CS-Cart по умолчанию"
+
+msgctxt "Languages::woo_default_cscart_category_help"
+msgid "Default CS-Cart category"
+msgstr "Категория CS-Cart по умолчанию"
+
+msgctxt "Languages::woocommerce_currency"
+msgid "WooCommerce Currency"
+msgstr "WooCommerce Валюта"
+
+msgctxt "Languages::woocommerce_currency_help"
+msgid "WooCommerce Currency"
+msgstr "WooCommerce Валюта"
+
+msgctxt "Languages::order_settings"
+msgid "Order settings"
+msgstr "Настройки заказа"
+
+msgctxt "Languages::product_settings"
+msgid "Product setting"
+msgstr "Настройка продукта"
+
+msgctxt "Languages::manage_accounts"
+msgid "Manage accounts"
+msgstr "Управление учетными записями"
+
+msgctxt "Languages::list_woocommerce_orders"
+msgid "List WooCommerce orders"
+msgstr "Список заказов WooCommerce"
+
+msgctxt "Languages::woocommerce_product_id"
+msgid "WooCommerce product Id"
+msgstr "Идентификатор продукта WooCommerce"
+
+msgctxt "Languages::wk_import_product"
+msgid "Import products"
+msgstr "Импортные товары"
+
+msgctxt "Languages::update_product_synchronization"
+msgid "Product sync"
+msgstr "Синхронизация продукта"
+
+msgctxt "Languages::product_sync"
+msgid "Product sync"
+msgstr "Синхронизация продукта"
+
+msgctxt "Languages::woocommerce_order_id"
+msgid "WooCommerce order Id"
+msgstr "Идентификатор заказа WooCommerce"
+
+msgctxt "Languages::woocommerce_order_total"
+msgid "WooCommerce order total"
+msgstr "Общая сумма заказа WooCommerce"
+
+msgctxt "Languages::order_key"
+msgid "Order key"
+msgstr "Ключ заказа"
+
+msgctxt "Languages::created_at"
+msgid "Created at"
+msgstr "Создано в"
+
+msgctxt "Languages::list_of_woocommerce_orders"
+msgid "List of WooCommerce orders"
+msgstr "Список заказов WooCommerce"
+
+msgctxt "Languages::import_orders"
+msgid "Import orders"
+msgstr "Импорт заказов"
+
+msgctxt "Languages::order_import"
+msgid "Import order"
+msgstr "Импорт заказов"
+
+msgctxt "Languages::wk_woocommerce_shippings"
+msgid "WooCommerce Shipping map"
+msgstr "Карта доставки WooCommerce"
+
+msgctxt "Languages::woocommerce_shipping_id"
+msgid "WooCommerce shipping Id"
+msgstr "Идентификатор доставки WooCommerce"
+
+msgctxt "Languages::woocommerce_shipping"
+msgid "Name"
+msgstr "название"
+
+msgctxt "Languages::wk_woocommerce_import_shippings"
+msgid "Import shippings"
+msgstr "Импортные отправки"
+
+msgctxt "Languages::wk_woocommerce_payments"
+msgid "WooCommerce payments map"
+msgstr "Карта платежей WooCommerce"
+
+msgctxt "Languages::woocommerce_payment_id"
+msgid "WooCommerce payment Id"
+msgstr "Идентификатор WooCommerce платежей"
+
+msgctxt "Languages::woocommerce_payment"
+msgid "Name"
+msgstr "название"
+
+msgctxt "Languages::wk_woocommerce_import_payments"
+msgid "Import Payments"
+msgstr "Импортные платежи"
+
+msgctxt "Languages::wk_woocommerce_categories"
+msgid "WooCommerce category map"
+msgstr "Карта категорий WooCommerce"
+
+msgctxt "Languages::woocommerce_category_id"
+msgid "WooCommerce category Id"
+msgstr "Идентификатор категории WooCommerce"
+
+msgctxt "Languages::woocommerce_category"
+msgid "Name"
+msgstr "название"
+
+msgctxt "Languages::wk_woocommerce_import_categories"
+msgid "Import categories"
+msgstr "Импорт категорий"
+
+msgctxt "Languages::wk_woocommerce_attributes"
+msgid "WooCommerce attribute map"
+msgstr "Карта атрибутов WooCommerce"
+
+msgctxt "Languages::woocommerce_attribute_id"
+msgid "WooCommerce attribute Id"
+msgstr "Идентификатор атрибута WooCommerce"
+
+msgctxt "Languages::wk_woocommerce_import_attributes"
+msgid "Import attributes"
+msgstr "Импорт атрибутов"
+
+msgctxt "Languages::request_not_valid"
+msgid "Invalid request"
+msgstr "Неверный запрос"
+
+msgctxt "Languages::wk_already_mapped_with_store_category"
+msgid "already mapped with store category"
+msgstr "уже сопоставлены с категорией магазина"
+
+msgctxt "Languages::already_mapped_with_another_woocommerce_category"
+msgid "already mapped with another WooCommerce category"
+msgstr "уже сопоставлены с другой категорией WooCommerce"
+
+msgctxt "Languages::fetching_product_data_from_woocommerce"
+msgid "Fetching WooCommerce products"
+msgstr "Выбор продуктов WooCommerce"
+
+msgctxt "Languages::fetching_product_data_from_woocommerce_for_id"
+msgid "Fetching WooCommerce product for product Id [product_id]"
+msgstr "Выбор продукта WooCommerce для идентификатора продукта [product_id]"
+
+msgctxt "Languages::products_created_updated_on_store"
+msgid "Products created on store"
+msgstr "Товары, созданные в магазине"
+
+msgctxt "Languages::import_products_from_woocommerce"
+msgid "Import products from WooCommerce"
+msgstr "Импорт товаров из WooCommerce"
+
+msgctxt "Languages::no_products_found_to_import"
+msgid "No products found to import"
+msgstr "Не найдено товаров для импорта"
+
+msgctxt "Languages::text_category_data_imported"
+msgid "Category data imported. <br> New: [new] <br> Existing: [exist] <br> Total: [total]"
+msgstr "Данные категории импортированы. <br> Новое: [new] <br> Существующее: [exist] <br> Всего: [total]"
+
+msgctxt "Languages::success"
+msgid "Success"
+msgstr "успех"
+
+msgctxt "Languages::text_shipping_data_imported"
+msgid "Shipping data imported. <br> New: [new] <br> Existing: [exist] <br> Total: [total]"
+msgstr "Импортные данные импортированы. <br> Новое: [new] <br> Существующее: [exist] <br> Всего: [total]"
+
+msgctxt "Languages::text_payment_data_imported"
+msgid "Payment data imported. <br> New: [new] <br> Existing: [exist] <br> Total: [total]"
+msgstr "Данные платежа импортированы. <br> Новое: [new] <br> Существующее: [exist] <br> Всего: [total]"
+
+msgctxt "Languages::text_attribute_data_imported"
+msgid "Attribute data imported. <br> New: [new] <br> Existing: [exist] <br> Total: [total]"
+msgstr "Данные атрибута импортированы. <br> Новое: [new] <br> Существующее: [exist] <br> Всего: [total]"
+
+msgctxt "Languages::import_product_from_woocommerce"
+msgid "Import products from WooCommerce"
+msgstr "Импорт товаров из WooCommerce"
+
+msgctxt "Languages::woocommerce_product_status"
+msgid "WooCommerce product status"
+msgstr "Статус продукта WooCommerce"
+
+msgctxt "Languages::import_product_id_placeholder"
+msgid "Product Ids comma seperated"
+msgstr "Идентификатор продукта через запятую"
+
+msgctxt "Languages::publish"
+msgid "Publish"
+msgstr "Публиковать"
+
+msgctxt "Languages::draft"
+msgid "Draft"
+msgstr "Черновой вариант"
+
+msgctxt "Languages::creating_on_store"
+msgid "creating on store"
+msgstr "создание в магазине"
+
+msgctxt "Languages::import_order"
+msgid "Import orders"
+msgstr "Импорт заказов"
+
+msgctxt "Languages::import_order_by_date"
+msgid "Import orders by date"
+msgstr "Импорт заказов по дате"
+
+msgctxt "Languages::order_date_period"
+msgid "Order date period"
+msgstr "Период даты заказа"
+
+msgctxt "Languages::import_order_by_order_id"
+msgid "Import orders by order-Id"
+msgstr "Импорт заказов по идентификатору заказа"
+
+msgctxt "Languages::import_order_by_status"
+msgid "Import orders by status"
+msgstr "Импорт заказов по статусу"
+
+msgctxt "Languages::on_hold"
+msgid "On hold"
+msgstr "На удерживании"
+
+msgctxt "Languages::trash"
+msgid "Trash"
+msgstr "дрянь"
+
+msgctxt "Languages::no_new_orders_to_import"
+msgid "No new orders to import"
+msgstr "Нет новых заказов на импорт"
+
+msgctxt "Languages::order_imported_on_store"
+msgid "Order imported on store"
+msgstr "Заказ импортируется в магазине"
+
+msgctxt "Languages::wk_woocomerce_webhook_deleted_successfully"
+msgid "Webhook deleted successfully"
+msgstr "Webhook успешно удален"
+
+msgctxt "Languages::wk_unable_to_delete_webhook"
+msgid "Unable to delete webhook"
+msgstr "Невозможно удалить webhook"
+
+msgctxt "Languages::category_mapped_successfully"
+msgid "Category mapped successfully"
+msgstr "Категория успешно сопоставлена"
+
+msgctxt "Languages::shipping_mapped_successfully"
+msgid "Shipping mapped successfully"
+msgstr "Доставка успешно отображена"
+
+msgctxt "Languages::payment_mapped_successfully"
+msgid "Payment mapped successfully"
+msgstr "Платеж успешно сопоставлен"
+
+msgctxt "Languages::attributes_mapped_successfully"
+msgid "Attributes mappped successfully"
+msgstr "Атрибуты успешно сопоставлены"
+
+msgctxt "Languages::wk_woocomerce_authorized_successfully"
+msgid "Authorised successfully"
+msgstr "Авторизовано успешно"
+
+msgctxt "Languages::wk_unable_to_authorize_user"
+msgid "Unable to authorise user"
+msgstr "Невозможно авторизовать пользователя"
+
+msgctxt "Languages::woo_webhook_settings"
+msgid "Webhook settings"
+msgstr "Настройки Webhook"
+
+msgctxt "Languages::topic"
+msgid "Topic"
+msgstr "Тема"
+
+msgctxt "Languages::register_order_webhook"
+msgid "Register order webhook"
+msgstr "Зарегистрировать заказ webhook"
+
+msgctxt "Languages::register_product_webhook"
+msgid "Register product webhook"
+msgstr "Зарегистрировать продукт webhook"
+
+msgctxt "Languages::woocommerce_attribute"
+msgid "Woocommerce Attribute"
+msgstr "Атрибут Woocommerce"
+
+msgctxt "Languages::on-hold"
+msgid "On hold"
+msgstr "На удерживании"
+
+msgctxt "Languages::import_orders_from_woocommerce"
+msgid "Import Orders From Woocommerce"
+msgstr "Импорт заказов из Woocommerce"
+
+msgctxt "Languages::account_already_exist_for_vendor"
+msgid "Merchant Account Already Exists"
+msgstr "Учетная запись продавца уже существует"
+
+msgctxt "Languages::import_product_id_help"
+msgid "Import Products By Product Id"
+msgstr "Импорт продуктов по идентификатору продукта"
+
+msgctxt "Languages::woocommerce_product_status_help"
+msgid "Import Product By Status"
+msgstr "Импортировать продукт по статусу"
+
+msgctxt "Languages::"
+msgid ""
+msgstr ""
+

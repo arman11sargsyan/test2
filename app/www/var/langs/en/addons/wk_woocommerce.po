@@ -1,0 +1,453 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::wk_woocommerce"
+msgid "WooCommerce Connector"
+msgstr "WooCommerce Connector"
+
+msgctxt "Addons::description::wk_woocommerce"
+msgid "Admin can sync his product category and orders in a simple way"
+msgstr "Admin can sync his product category and orders in a simple way"
+
+msgctxt "Languages::wk_woocommerce_menu_description"
+msgid "Manage and view WooCommerce store to map your data with cs-cart"
+msgstr "Manage and view WooCommerce store to map your data with cs-cart"
+
+msgctxt "Languages::wk_woocommerce_webkul_user_guide_content"
+msgid "Congratulation!! <b>\"[addon_name]\"</b> Add-on is successfully installed. <ul class='inline social-share'><li><a href='[support_link]' target='_blank' class='uibutton large confirm'>Support Link</a></li><li><a href='[user_guide]' class='uibutton large confirm' target='_blank'>User Guide</a></li></ul>"
+msgstr "Congratulation!! <b>\"[addon_name]\"</b> Add-on is successfully installed. <ul class='inline social-share'><li><a href='[support_link]' target='_blank' class='uibutton large confirm'>Support Link</a></li><li><a href='[user_guide]' class='uibutton large confirm' target='_blank'>User Guide</a></li></ul>"
+
+msgctxt "Languages::wk_woocommerce"
+msgid "WooCommerce Connector"
+msgstr "WooCommerce Connector"
+
+msgctxt "Languages::woocommerce_shop_details"
+msgid "WooCommerce shop detail"
+msgstr "WooCommerce shop detail"
+
+msgctxt "Languages::wk_woocommerce.consumer_key"
+msgid "Consumer Key"
+msgstr "Consumer Key"
+
+msgctxt "Languages::wk_woocommerce.consumer_key_help"
+msgid "WooCommerce Consumer Key."
+msgstr "WooCommerce Consumer Key."
+
+msgctxt "Languages::wk_woocommerce.consumer_secret"
+msgid "Consumer Secret"
+msgstr "Consumer Secret"
+
+msgctxt "Languages::wk_woocommerce.consumer_secret_help"
+msgid "WooCommerce Consumer Key."
+msgstr "WooCommerce Consumer Key."
+
+msgctxt "Languages::wk_woocommerce.app_name"
+msgid "App name"
+msgstr "App name"
+
+msgctxt "Languages::wk_woocommerce.app_name_help"
+msgid "WooCommerce app name."
+msgstr "WooCommerce app name."
+
+msgctxt "Languages::wk_woocommerce.store_url"
+msgid "Store URL"
+msgstr "Store URL"
+
+msgctxt "Languages::wk_woocommerce.store_url_help"
+msgid "WooCommerce Store URL"
+msgstr "WooCommerce Store URL"
+
+msgctxt "Languages::add_woocommerce_merchant"
+msgid "Add WooCommerce merchant"
+msgstr "Add WooCommerce merchant"
+
+msgctxt "Languages::edit_woocommerce_merchant"
+msgid "Edit WooCommerce merchant"
+msgstr "Edit WooCommerce merchant"
+
+msgctxt "Languages::woocommerce_authenticate"
+msgid "Authenticate"
+msgstr "Authenticate"
+
+msgctxt "Languages::manage_woocommerce_accounts"
+msgid "Manage WooCommerce accounts"
+msgstr "Manage WooCommerce accounts"
+
+msgctxt "Languages::app_name"
+msgid "App name"
+msgstr "App name"
+
+msgctxt "Languages::manage_woocommerce_products"
+msgid "Manage products"
+msgstr "Manage products"
+
+msgctxt "Languages::manage_woocommerce_orders"
+msgid "Manage Orders"
+msgstr "Manage Orders"
+
+msgctxt "Languages::manage_shippings_mapping"
+msgid "Shipping mapping"
+msgstr "Shipping mapping"
+
+msgctxt "Languages::manage_payment_mapping"
+msgid "Payment method mapping"
+msgstr "Payment method mapping"
+
+msgctxt "Languages::manage_category_mapping"
+msgid "Category mapping"
+msgstr "Category mapping"
+
+msgctxt "Languages::manage_feature_mapping"
+msgid "Features mapping"
+msgstr "Features mapping"
+
+msgctxt "Languages::woo_delete_account"
+msgid "Delete account"
+msgstr "Delete account"
+
+msgctxt "Languages::woo_default_order_status"
+msgid "Default order status"
+msgstr "Default order status"
+
+msgctxt "Languages::woo_payment_processor"
+msgid "Payment processor"
+msgstr "Payment processor"
+
+msgctxt "Languages::payment_processor_help"
+msgid "Payment processor"
+msgstr "Payment processor"
+
+msgctxt "Languages::woo_shipping_method"
+msgid "Shipping method"
+msgstr "Shipping method"
+
+msgctxt "Languages::shipping_method_help"
+msgid "Shipping method"
+msgstr "Shipping method"
+
+msgctxt "Languages::woo_default_cscart_category"
+msgid "Default CS-Cart category"
+msgstr "Default CS-Cart category"
+
+msgctxt "Languages::woo_default_cscart_category_help"
+msgid "Default CS-Cart category"
+msgstr "Default CS-Cart category"
+
+msgctxt "Languages::woocommerce_currency"
+msgid "WooCommerce Currency"
+msgstr "WooCommerce Currency"
+
+msgctxt "Languages::woocommerce_currency_help"
+msgid "WooCommerce Currency"
+msgstr "WooCommerce Currency"
+
+msgctxt "Languages::order_settings"
+msgid "Order settings"
+msgstr "Order settings"
+
+msgctxt "Languages::product_settings"
+msgid "Product setting"
+msgstr "Product setting"
+
+msgctxt "Languages::manage_accounts"
+msgid "Manage accounts"
+msgstr "Manage accounts"
+
+msgctxt "Languages::list_woocommerce_orders"
+msgid "List WooCommerce orders"
+msgstr "List WooCommerce orders"
+
+msgctxt "Languages::woocommerce_product_id"
+msgid "WooCommerce product Id"
+msgstr "WooCommerce product Id"
+
+msgctxt "Languages::wk_import_product"
+msgid "Import products"
+msgstr "Import products"
+
+msgctxt "Languages::update_product_synchronization"
+msgid "Product sync"
+msgstr "Product sync"
+
+msgctxt "Languages::product_sync"
+msgid "Product sync"
+msgstr "Product sync"
+
+msgctxt "Languages::woocommerce_order_id"
+msgid "WooCommerce order Id"
+msgstr "WooCommerce order Id"
+
+msgctxt "Languages::woocommerce_order_total"
+msgid "WooCommerce order total"
+msgstr "WooCommerce order total"
+
+msgctxt "Languages::order_key"
+msgid "Order key"
+msgstr "Order key"
+
+msgctxt "Languages::created_at"
+msgid "Created at"
+msgstr "Created at"
+
+msgctxt "Languages::list_of_woocommerce_orders"
+msgid "List of WooCommerce orders"
+msgstr "List of WooCommerce orders"
+
+msgctxt "Languages::import_orders"
+msgid "Import orders"
+msgstr "Import orders"
+
+msgctxt "Languages::order_import"
+msgid "Import order"
+msgstr "Import order"
+
+msgctxt "Languages::wk_woocommerce_shippings"
+msgid "WooCommerce Shipping map"
+msgstr "WooCommerce Shipping map"
+
+msgctxt "Languages::woocommerce_shipping_id"
+msgid "WooCommerce shipping Id"
+msgstr "WooCommerce shipping Id"
+
+msgctxt "Languages::woocommerce_shipping"
+msgid "Name"
+msgstr "Name"
+
+msgctxt "Languages::wk_woocommerce_import_shippings"
+msgid "Import shippings"
+msgstr "Import shippings"
+
+msgctxt "Languages::wk_woocommerce_payments"
+msgid "WooCommerce payments map"
+msgstr "WooCommerce payments map"
+
+msgctxt "Languages::woocommerce_payment_id"
+msgid "WooCommerce payment Id"
+msgstr "WooCommerce payment Id"
+
+msgctxt "Languages::woocommerce_payment"
+msgid "Name"
+msgstr "Name"
+
+msgctxt "Languages::wk_woocommerce_import_payments"
+msgid "Import Payments"
+msgstr "Import Payments"
+
+msgctxt "Languages::wk_woocommerce_categories"
+msgid "WooCommerce category map"
+msgstr "WooCommerce category map"
+
+msgctxt "Languages::woocommerce_category_id"
+msgid "WooCommerce category Id"
+msgstr "WooCommerce category Id"
+
+msgctxt "Languages::woocommerce_category"
+msgid "Name"
+msgstr "Name"
+
+msgctxt "Languages::wk_woocommerce_import_categories"
+msgid "Import categories"
+msgstr "Import categories"
+
+msgctxt "Languages::wk_woocommerce_attributes"
+msgid "WooCommerce attribute map"
+msgstr "WooCommerce attribute map"
+
+msgctxt "Languages::woocommerce_attribute_id"
+msgid "WooCommerce attribute Id"
+msgstr "WooCommerce attribute Id"
+
+msgctxt "Languages::wk_woocommerce_import_attributes"
+msgid "Import attributes"
+msgstr "Import attributes"
+
+msgctxt "Languages::request_not_valid"
+msgid "Invalid request"
+msgstr "Invalid request"
+
+msgctxt "Languages::wk_already_mapped_with_store_category"
+msgid "already mapped with store category"
+msgstr "already mapped with store category"
+
+msgctxt "Languages::already_mapped_with_another_woocommerce_category"
+msgid "already mapped with another WooCommerce category"
+msgstr "already mapped with another WooCommerce category"
+
+msgctxt "Languages::fetching_product_data_from_woocommerce"
+msgid "Fetching WooCommerce products"
+msgstr "Fetching WooCommerce products"
+
+msgctxt "Languages::fetching_product_data_from_woocommerce_for_id"
+msgid "Fetching WooCommerce product for product Id [product_id]"
+msgstr "Fetching WooCommerce product for product Id [product_id]"
+
+msgctxt "Languages::products_created_updated_on_store"
+msgid "Products created on store"
+msgstr "Products created on store"
+
+msgctxt "Languages::import_products_from_woocommerce"
+msgid "Import products from WooCommerce"
+msgstr "Import products from WooCommerce"
+
+msgctxt "Languages::no_products_found_to_import"
+msgid "No products found to import"
+msgstr "No products found to import"
+
+msgctxt "Languages::text_category_data_imported"
+msgid "Category data imported. <br> New: [new] <br> Existing: [exist] <br> Total: [total]"
+msgstr "Category data imported. <br> New: [new] <br> Existing: [exist] <br> Total: [total]"
+
+msgctxt "Languages::success"
+msgid "Success"
+msgstr "Success"
+
+msgctxt "Languages::text_shipping_data_imported"
+msgid "Shipping data imported. <br> New: [new] <br> Existing: [exist] <br> Total: [total]"
+msgstr "Shipping data imported. <br> New: [new] <br> Existing: [exist] <br> Total: [total]"
+
+msgctxt "Languages::text_payment_data_imported"
+msgid "Payment data imported. <br> New: [new] <br> Existing: [exist] <br> Total: [total]"
+msgstr "Payment data imported. <br> New: [new] <br> Existing: [exist] <br> Total: [total]"
+
+msgctxt "Languages::text_attribute_data_imported"
+msgid "Attribute data imported. <br> New: [new] <br> Existing: [exist] <br> Total: [total]"
+msgstr "Attribute data imported. <br> New: [new] <br> Existing: [exist] <br> Total: [total]"
+
+msgctxt "Languages::import_product_from_woocommerce"
+msgid "Import products from WooCommerce"
+msgstr "Import products from WooCommerce"
+
+msgctxt "Languages::woocommerce_product_status"
+msgid "WooCommerce product status"
+msgstr "WooCommerce product status"
+
+msgctxt "Languages::import_product_id_placeholder"
+msgid "Product Ids comma seperated"
+msgstr "Product Ids comma seperated"
+
+msgctxt "Languages::publish"
+msgid "Publish"
+msgstr "Publish"
+
+msgctxt "Languages::draft"
+msgid "Draft"
+msgstr "Draft"
+
+msgctxt "Languages::creating_on_store"
+msgid "creating on store"
+msgstr "creating on store"
+
+msgctxt "Languages::import_order"
+msgid "Import orders"
+msgstr "Import orders"
+
+msgctxt "Languages::import_order_by_date"
+msgid "Import orders by date"
+msgstr "Import orders by date"
+
+msgctxt "Languages::order_date_period"
+msgid "Order date period"
+msgstr "Order date period"
+
+msgctxt "Languages::import_order_by_order_id"
+msgid "Import orders by order-Id"
+msgstr "Import orders by order-Id"
+
+msgctxt "Languages::import_order_by_status"
+msgid "Import orders by status"
+msgstr "Import orders by status"
+
+msgctxt "Languages::on_hold"
+msgid "On hold"
+msgstr "On hold"
+
+msgctxt "Languages::trash"
+msgid "Trash"
+msgstr "Trash"
+
+msgctxt "Languages::no_new_orders_to_import"
+msgid "No new orders to import"
+msgstr "No new orders to import"
+
+msgctxt "Languages::order_imported_on_store"
+msgid "Order imported on store"
+msgstr "Order imported on store"
+
+msgctxt "Languages::wk_woocomerce_webhook_deleted_successfully"
+msgid "Webhook deleted successfully"
+msgstr "Webhook deleted successfully"
+
+msgctxt "Languages::wk_unable_to_delete_webhook"
+msgid "Unable to delete webhook"
+msgstr "Unable to delete webhook"
+
+msgctxt "Languages::category_mapped_successfully"
+msgid "Category mapped successfully"
+msgstr "Category mapped successfully"
+
+msgctxt "Languages::shipping_mapped_successfully"
+msgid "Shipping mapped successfully"
+msgstr "Shipping mapped successfully"
+
+msgctxt "Languages::payment_mapped_successfully"
+msgid "Payment mapped successfully"
+msgstr "Payment mapped successfully"
+
+msgctxt "Languages::attributes_mapped_successfully"
+msgid "Attributes mappped successfully"
+msgstr "Attributes mappped successfully"
+
+msgctxt "Languages::wk_woocomerce_authorized_successfully"
+msgid "Authorised successfully"
+msgstr "Authorised successfully"
+
+msgctxt "Languages::wk_unable_to_authorize_user"
+msgid "Unable to authorise user"
+msgstr "Unable to authorise user"
+
+msgctxt "Languages::woo_webhook_settings"
+msgid "Webhook settings"
+msgstr "Webhook settings"
+
+msgctxt "Languages::topic"
+msgid "Topic"
+msgstr "Topic"
+
+msgctxt "Languages::register_order_webhook"
+msgid "Register order webhook"
+msgstr "Register order webhook"
+
+msgctxt "Languages::register_product_webhook"
+msgid "Register product webhook"
+msgstr "Register product webhook"
+
+msgctxt "Languages::woocommerce_attribute"
+msgid "Woocommerce Attribute"
+msgstr "Woocommerce Attribute"
+
+msgctxt "Languages::on-hold"
+msgid "On hold"
+msgstr "On hold"
+
+msgctxt "Languages::import_orders_from_woocommerce"
+msgid "Import Orders From Woocommerce"
+msgstr "Import Orders From Woocommerce"
+
+msgctxt "Languages::account_already_exist_for_vendor"
+msgid "Merchant Account Already Exists"
+msgstr "Merchant Account Already Exists"
+
+msgctxt "Languages::import_product_id_help"
+msgid "Import Products By Product Id"
+msgstr "Import Products By Product Id"
+
+msgctxt "Languages::woocommerce_product_status_help"
+msgid "Import Product By Status"
+msgstr "Import Product By Status"
+
+msgctxt "Languages::"
+msgid ""
+msgstr ""

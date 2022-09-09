@@ -1,0 +1,41 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::ec_vendor_agree"
+msgid "Ecommand: Vendor Agreement"
+msgstr "Ecommand: Vendor Agreement"
+
+msgctxt "Addons::description::ec_vendor_agree"
+msgid "Vendor Agreement addon"
+msgstr "Vendor Agreement addon"
+
+msgctxt "Languages::ec_vendor_agree.welcome_text"
+msgid "Welcome to Re:store!"
+msgstr "Welcome to Re:store!"
+
+msgctxt "Languages::ec_vendor_agree.welcome_subheader"
+msgid "Please agree to terms to continue using our service."
+msgstr "Please agree to terms to continue using our service."
+
+msgctxt "Languages::ec_vendor_agree.agreement_text"
+msgid "I agree to the <a href="" target="_blank">Partner terms</a>."
+msgstr "I agree to the <a href="" target="_blank">Partner terms</a>."
+
+msgctxt "Languages::ec_vendor_agree.start_onboarding"
+msgid "Start onboarding"
+msgstr "Start onboarding"
+
+msgctxt "Languages::ec_vendor_agree.logout"
+msgid "Log out"
+msgstr "Log out"
+
+msgctxt "Languages::ec_vendor_agree.agree_error_text"
+msgid "Sorry, please accept terms to continue."
+msgstr "Sorry, please accept terms to continue."
+
+msgctxt "Languages::ec_vendor_agree.agreed_text"
+msgid "Agreed term and condition."
+msgstr "Agreed term and condition."

@@ -1,0 +1,25 @@
+#!/bin/sh
+set -e
+
+# copy the var directory for now
+# not sure what all these things do
+cp -r /var/www/var /ephemeral
+chown -R www-data: /ephemeral
+rm -f /var/www/html/var
+ln -s /ephemeral/var /var/www/html/var
+
+
+mkdir -p /shared/images
+mkdir -p /shared/files
+chown www-data: /shared/images
+chown www-data: /shared/files
+
+ln -s /shared/images /var/www/html/images
+ln -s /shared/files /var/www/html/files
+
+# first arg is `-f` or `--some-option`
+if [ "${1#-}" != "$1" ]; then
+	set -- apache2-foreground "$@"
+fi
+
+exec "$@"
