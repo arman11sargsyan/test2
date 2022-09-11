@@ -1,1 +1,0 @@
-{$payment.vendor}: {__("vendor_payouts.payout_declined")}

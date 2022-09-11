@@ -1,1 +1,0 @@
-<div class="object-picker__product-feature-label">{$title_pre} {literal}${data.name}{/literal} {$title_post}</div>

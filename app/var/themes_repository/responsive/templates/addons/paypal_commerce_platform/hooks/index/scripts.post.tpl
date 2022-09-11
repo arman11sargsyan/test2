@@ -1,1 +1,0 @@
-{script src="js/addons/paypal_commerce_platform/checkout.js"}

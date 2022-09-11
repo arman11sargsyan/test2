@@ -1,1 +1,0 @@
-{script src="js/addons/pingpp/payment.js"}

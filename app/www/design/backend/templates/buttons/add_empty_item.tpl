@@ -1,1 +1,0 @@
-<a class="btn btn-add" name="add" id="{$item_id}" onclick="{$but_onclick}">{__("add")}</a>&nbsp;

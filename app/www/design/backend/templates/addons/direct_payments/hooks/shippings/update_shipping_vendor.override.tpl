@@ -1,1 +1,0 @@
-<!-- Overridden by the Direct Customer-to-Vendor Payments add-on -->

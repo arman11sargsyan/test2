@@ -1,1 +1,0 @@
-<a class="btn btn-clone" name="clone" id="{$item_id}" onclick="{$but_onclick}">{__("clone")}</a>&nbsp;

@@ -1,1 +1,0 @@
-{include file="addons/store_locator/views/checkout/components/shippings/map_and_list_pickup.tpl"}

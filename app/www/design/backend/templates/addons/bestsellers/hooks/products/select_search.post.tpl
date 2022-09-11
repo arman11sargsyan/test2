@@ -1,1 +1,0 @@
-<option {if $search.sort_by == "bestsellers"}selected="selected"{/if} value="bestsellers">{__("bestsellers")}</option>

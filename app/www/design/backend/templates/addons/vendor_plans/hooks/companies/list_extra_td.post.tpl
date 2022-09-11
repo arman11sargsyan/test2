@@ -1,1 +1,0 @@
-<td width="10%" class="row-status">{$company.plan}</td>
