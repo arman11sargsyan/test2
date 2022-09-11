@@ -1,0 +1,87 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "LanguageName"
+msgid "Localized language name"
+msgstr "English"
+
+msgctxt "Addons::name::ec_stripeconnecttax"
+msgid "EC Stripe Connect Tax"
+msgstr "EC Stripe Connect Tax"
+
+msgctxt "Addons::description::ec_stripeconnecttax"
+msgid "Add Tax on Stripe connect account addon on Admin Payment part."
+msgstr "Add Tax on Stripe connect account addon on Admin Payment part."
+
+
+msgctxt "Languages::ec_stripeconnecttax_label_tax_apply"
+msgid "Tax Apply"
+msgstr "Tax Apply"
+
+msgctxt "Languages::ec_stripeconnecttax_tax_tab"
+msgid "Tax Detail"
+msgstr "Tax Detail"
+
+msgctxt "Languages::ec_stripeconnecttax_label_tax_name"
+msgid "Tax Name"
+msgstr "Tax Name"
+
+msgctxt "Languages::ec_stripeconnecttax_tax_name_value"
+msgid "GST"
+msgstr "GST"
+
+msgctxt "Languages::ec_stripeconnecttax_label_transaction_fee"
+msgid "Tax Transaction fee"
+msgstr "Tax Transaction fee"
+
+msgctxt "Languages::ec_stripeconnecttax_tax_label_info"
+msgid "This tax value apply on administrators commission fees part value."
+msgstr "This tax value apply on administrators commission fees part value"
+
+msgctxt "Languages::ec_stripeconnecttax_order_receipt"
+msgid "Receipt for Order"
+msgstr "Receipt for Order"
+
+msgctxt "Languages::ec_stripeconnecttax_date_paid"
+msgid "Date Paid"
+msgstr "Date Paid"
+
+msgctxt "Languages::ec_stripeconnecttax_receipt_number"
+msgid "Receipt Number"
+msgstr "Receipt Number"
+
+msgctxt "Languages::ec_stripeconnecttax_paid_by"
+msgid "Paid by"
+msgstr "Paid by"
+
+msgctxt "Languages::ec_stripeconnecttax_issued_by"
+msgid "Issued by"
+msgstr "Issued by"
+
+msgctxt "Languages::ec_stripeconnecttax_orderreceipt_summary"
+msgid "Summary"
+msgstr "Summary"
+
+msgctxt "Languages::vendorinformation_orderreceipt_summary_transactionfee"
+msgid "Order #[orderid] transaction fee"
+msgstr "Order #[orderid] transaction fee"
+
+msgctxt "Languages::vendorinformation_orderreceipt_summary_tax"
+msgid "[taxname] / Tax ([taxper])"
+msgstr "[taxname] / Tax ([taxper])"
+
+msgctxt "Languages::vendorinformation_orderreceipt_summary_amountpaid"
+msgid "Amount Paid"
+msgstr "Amount Paid"
+
+msgctxt "Languages::vendorinformation_orderreceipt_summary_bottommsg"
+msgid "If you believe this charge to be in error or have any questions,<br> Please email <u>Support@askrestore.com</u>"
+msgstr "If you believe this charge to be in error or have any questions,<br> Please email <u>Support@askrestore.com</u>"
+
+msgctxt "Languages::ec_stripeconnecttax_order_receipt_file"
+msgid "order_receipt"
+msgstr "order_receipt"
+

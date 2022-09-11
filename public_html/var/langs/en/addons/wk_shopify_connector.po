@@ -1,0 +1,500 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::wk_shopify_connector"
+msgid "Shopify Connector"
+msgstr "Shopify Connector"
+
+msgctxt "Addons::description::wk_shopify_connector"
+msgid "Admin can sync his product category and orders in a simple way"
+msgstr "Admin can sync his product category and orders in a simple way"
+
+msgctxt "Languages::wk_shopify_connector_menu_description"
+msgid "Manage and view shopify store to map your data with cs-cart"
+msgstr "Manage and view shopify store to map your data with cs-cart"
+
+msgctxt "Languages::wk_shopify_connector"
+msgid "Shopify Connector"
+msgstr "Shopify Connector"
+
+msgctxt "Languages::sorry_this_order_is_not_created"
+msgid "Sorry, This order is not created."
+msgstr "Sorry, This order is not created."
+
+
+msgctxt "Languages::privileges.view_wk_shopify_connector"
+msgid "View Shopify connector"
+msgstr "View Shopify connector"
+
+msgctxt "Languages::privileges.manage_wk_shopify_connector"
+msgid "Manage Shopify connector"
+msgstr "Manage Shopify connector"
+
+
+msgctxt "Languages::wkshopifyaccounterror"
+msgid "The Account is already created."
+msgstr "The Account is already created."
+
+msgctxt "Languages::please_select_the_category"
+msgid "Please select the Category For mapping."
+msgstr "Please select the Category For mapping."
+
+msgctxt "Languages::not_shopify_products"
+msgid "Product is not related to shopify."
+msgstr "Product is not related to shopify."
+
+msgctxt "Languages::select_anid"
+msgid "Select an Id first."
+msgstr "Select an Id first."
+
+msgctxt "SettingsOptions::wk_shopify_connector::order_status_to_stop_order"
+msgid "Order Status For Stop Sending products to Shopify"
+msgstr "Order Status For Stop Sending products to Shopify"
+
+msgctxt "SettingsTooltips::wk_shopify_connector::order_status_to_stop_order"
+msgid "Select Order Status For Stop Sending products to Shopify"
+msgstr "Select Order Status For Stop Sending products to Shopify"
+
+msgctxt "Languages::wk_shopify.shopify_api_key"
+msgid "Api Key/Token"
+msgstr "Api Key/Token"
+
+msgctxt "Languages::wk_shopify_webkul_user_guide_content"
+msgid "Congratulation!! <b>\"[addon_name]\"</b> Add-on is successfully installed. <ul class='inline social-share'><li><a href='[support_link]' target='_blank' class='uibutton large confirm'>Support Link</a></li><li><a href='[user_guide]' class='uibutton large confirm' target='_blank'>User Guide</a></li></ul>"
+msgstr "Congratulation!! <b>\"[addon_name]\"</b> Add-on is successfully installed. <ul class='inline social-share'><li><a href='[support_link]' target='_blank' class='uibutton large confirm'>Support Link</a></li><li><a href='[user_guide]' class='uibutton large confirm' target='_blank'>User Guide</a></li></ul>"
+
+
+msgctxt "Languages::wk_shopify.shopify_secret_key"
+msgid "Password/custom"
+msgstr "Password/custom"
+
+msgctxt "Languages::wk_shopify.domain_name"
+msgid "Domain Name"
+msgstr "Domain Name"
+
+msgctxt "Languages::wk_shopify.shop_name"
+msgid "Shop Name"
+msgstr "Shop Name"
+
+msgctxt "Languages::product_settings"
+msgid "Product Setting"
+msgstr "Product Setting"
+
+msgctxt "Languages::default_cscart_category"
+msgid "Default Category"
+msgstr "Default Category"
+
+msgctxt "Languages::edit_account"
+msgid "Edit Account"
+msgstr "Edit Account"
+
+msgctxt "Languages::delete_account"
+msgid "Delete Account"
+msgstr "Delete Account"
+
+msgctxt "Languages::domain_name"
+msgid "Domain Name"
+msgstr "Domain Name"
+
+msgctxt "Languages::shop_name"
+msgid "Shop Name"
+msgstr "Shop Name"
+
+msgctxt "Languages::shopify_credentials"
+msgid "Shop Credentials"
+msgstr "Shop Credentials"
+
+msgctxt "Languages::shopify_authenticate"
+msgid "Authenticate"
+msgstr "Authenticate"
+
+msgctxt "Languages::manage_shopify_accounts"
+msgid "Manage Shopify Accounts"
+msgstr "Manage Shopify Accounts"
+
+msgctxt "Languages::add_shopify_merchant"
+msgid "Add Shopify Account"
+msgstr "Add Shopify Account"
+
+msgctxt "Languages::manage_category_mapping"
+msgid "Category Map"
+msgstr "Category Map"
+
+msgctxt "Languages::cscart_category"
+msgid "Default Category"
+msgstr "Default Category"
+
+msgctxt "Languages::topic"
+msgid "Topic"
+msgstr "Topic"
+
+msgctxt "Languages::webhook_setting"
+msgid "Webhook Setting"
+msgstr "Webhook Setting"
+
+msgctxt "Languages::shopify_currency"
+msgid "Shopify Currency"
+msgstr "Shopify Currency"
+
+msgctxt "Languages::shopify_variaton_one_or_not"
+msgid "Type Of Product variation"
+msgstr "Type Of Product variation"
+
+msgctxt "Languages::shopify_variaton_one_or_not_help"
+msgid "Please select yes if you want to create (Variations as one product) and select no for (Variations as separate products)"
+msgstr "Please select yes if you want to create (Variations as one product) and select no for (Variations as separate products)"
+
+msgctxt "Languages::shopify_for_draft_product"
+msgid "For Shopify Draft Product as"
+msgstr "For Shopify Draft Product as"
+
+msgctxt "Languages::shopify_for_draft_product_help"
+msgid "Please select the given option to import the Shopify draft product in the Cs-Cart site with the given status."
+msgstr "Please select the given option to import the Shopify draft product in the Cs-Cart site with the given status."
+
+msgctxt "Languages::manage_shopify_products"
+msgid "Manage Shopify Products"
+msgstr "Manage Shopify Products"
+
+msgctxt "Languages::manage_shopify_orders"
+msgid "Manage Shopify Orders"
+msgstr "Manage Shopify Orders"
+
+msgctxt "Languages::manage_shopify_shipping_templates"
+msgid "Manage Shopify Shipping Templates"
+msgstr "Manage Shopify Shipping Templates"
+
+msgctxt "Languages::import_product"
+msgid "Start Import"
+msgstr "Start Import"
+
+msgctxt "Languages::colection_id"
+msgid "Collection Id"
+msgstr "Collection Id"
+
+msgctxt "Languages::list_product"
+msgid "Map Product"
+msgstr "Map Product"
+
+msgctxt "Languages::import_colection_id_placeholder"
+msgid "Enter Collection Id to import products"
+msgstr "Enter Collection Id to import products"
+
+msgctxt "Languages::import_product_from_shopify"
+msgid "Import Product From Shopify"
+msgstr "Import Product From Shopify"
+
+msgctxt "Languages::map_new_category"
+msgid "Map New Category"
+msgstr "Map New Category"
+
+msgctxt "Languages::cscart_categories"
+msgid "Cs-Cart Category"
+msgstr "Cs-Cart Category"
+
+msgctxt "Languages::shopify_categories"
+msgid "Shopify Category"
+msgstr "Shopify Category"
+
+msgctxt "Languages::map"
+msgid "Map"
+msgstr "Map"
+
+msgctxt "Languages::shopify_collection_id"
+msgid "Shopify Collection Id"
+msgstr "Shopify Collection Id"
+
+msgctxt "Languages::shopify_collection"
+msgid "Shopify Collection"
+msgstr "Shopify Collection"
+
+msgctxt "Languages::default_cscart_category"
+msgid "Default Category"
+msgstr "Default Category"
+
+msgctxt "Languages::list_of_shopify_products"
+msgid "Select And Sync Products"
+msgstr "Select And Sync Products"
+
+msgctxt "Languages::total_product_for_collection_id"
+msgid "Total product count for collection id ([collection_id]) is [product_count]"
+msgstr "Total product count for collection id ([collection_id]) is [product_count]"
+
+msgctxt "Languages::total_mapped_product_for_collection_id"
+msgid "Total mapped product count for collection id ([collection_id]) is [mapped_count]/[product_count]"
+msgstr "Total mapped product count for collection id ([collection_id]) is [mapped_count]/[product_count]"
+
+msgctxt "Languages::shopify_product_id"
+msgid "Shopify Product Id"
+msgstr "Shopify Product Id"
+
+msgctxt "Languages::import_products_from_shopify"
+msgid "Import Products From Shopify"
+msgstr "Import Products From Shopify"
+
+msgctxt "Languages::collection_id"
+msgid "Collection Id"
+msgstr "Collection Id"
+
+msgctxt "Languages::smart_"
+msgid "Smart"
+msgstr "Smart"
+
+msgctxt "Languages::custom_"
+msgid "Custom"
+msgstr "Custom"
+
+msgctxt "Languages::smart_collection_title"
+msgid "Collection Title"
+msgstr "Collection Title"
+
+msgctxt "Languages::custom_collection_title"
+msgid "Custom Collection Title"
+msgstr "Custom Collection Title"
+
+msgctxt "Languages::shopify_category_map_notice"
+msgid "Please mapp shopify categories first under category mapping.In case not product will fall on default store category"
+msgstr "Please mapp shopify categories first under category mapping.In case not product will fall on default store category"
+
+msgctxt "Languages::choose_one"
+msgid "Please enter a collection id or select from below list"
+msgstr "Please enter a collection id or select from below list"
+
+msgctxt "Languages::created_at"
+msgid "Created At"
+msgstr "Created At"
+
+msgctxt "Languages::updated_at"
+msgid "Updated At"
+msgstr "Updated At"
+
+msgctxt "Languages::list_of_shopify_orders"
+msgid "Select And Import Orders"
+msgstr "Select And Import Orders"
+
+msgctxt "Languages::financial_status"
+msgid "Financial status"
+msgstr "Financial status"
+
+msgctxt "Languages::fullfillment_status"
+msgid "Fulfillment Status"
+msgstr "Fulfillment Status"
+
+msgctxt "Languages::order_import"
+msgid "Order Import"
+msgstr "Order Import"
+
+msgctxt "Languages::import_orders"
+msgid "Import Orders"
+msgstr "Import Orders"
+
+msgctxt "Languages::list_all_orders"
+msgid "Import Shopify Orders"
+msgstr "Import Shopify Orders"
+
+msgctxt "Languages::s_orders"
+msgid "Shopify Orders"
+msgstr "Shopify Orders"
+
+msgctxt "Languages::payment_processor"
+msgid "Payment Processor"
+msgstr "Payment Processor"
+
+msgctxt "Languages::order_settings"
+msgid "Order Settings"
+msgstr "Order Settings"
+
+msgctxt "Languages::edit_shopify_merchant"
+msgid "Edit shopify Merchant"
+msgstr "Edit shopify Merchant"
+
+msgctxt "Languages::store_productid"
+msgid "Store Product Id"
+msgstr "Store Product Id"
+
+msgctxt "Languages::sync_product"
+msgid "Sync Product"
+msgstr "Sync Product"
+
+msgctxt "Languages::product_mapping"
+msgid "Sync Selected"
+msgstr "Sync Selected"
+
+msgctxt "Languages::finish_import_product"
+msgid "Select & Sync Desired Items to Finish Product Import"
+msgstr "Select & Sync Desired Items to Finish Product Import"
+
+msgctxt "Languages::list_shopify_orders"
+msgid "Exported Shopify Orders"
+msgstr "Exported Shopify Orders"
+
+msgctxt "Languages::shopify_order_id"
+msgid "Shopify Order Id"
+msgstr "Shopify Order Id"
+
+msgctxt "Languages::shopify_order_total"
+msgid "Shopify Order Total"
+msgstr "Shopify Order Total"
+
+msgctxt "Languages::order_number"
+msgid "Order Number"
+msgstr "Order Number"
+
+msgctxt "Languages::import_order"
+msgid "Import Order"
+msgstr "Import Order"
+
+msgctxt "Languages::import_order_by_date"
+msgid "By Date"
+msgstr "By Date"
+
+msgctxt "Languages::order_date_period"
+msgid "Date Period"
+msgstr "Date Period"
+
+msgctxt "Languages::fullfillment_shipped"
+msgid "Fullfillment Shipped"
+msgstr "Fullfillment Shipped"
+
+msgctxt "Languages::fullfillment_partial"
+msgid "Fullfillment Partial"
+msgstr "Fullfillment Partial"
+
+msgctxt "Languages::fullfillment_unshipped"
+msgid "Fullfillment Unshipped"
+msgstr "Fullfillment Unshipped"
+
+msgctxt "Languages::import_order_by_order_id"
+msgid "By Order Id"
+msgstr "By Order Id"
+
+msgctxt "Languages::import_order_by_status"
+msgid "By Status"
+msgstr "By Status"
+
+msgctxt "Languages::import_order"
+msgid "Import Order"
+msgstr "Import Order"
+
+msgctxt "Languages::manage_shipping_zone_mapping"
+msgid "Manage Shipping Zone"
+msgstr "Manage Shipping Zone"
+
+msgctxt "Languages::zone_id"
+msgid "Zone Id"
+msgstr "Zone Id"
+
+msgctxt "Languages::zone_name"
+msgid "Zone Name"
+msgstr "Zone Name"
+
+msgctxt "Languages::cscart_shipping_id"
+msgid "Store shipping Id"
+msgstr "Store shipping Id"
+
+msgctxt "Languages::cscart_shipping_name"
+msgid "Store Shipping Name"
+msgstr "Store Shipping Name"
+
+msgctxt "Languages::additional_detail"
+msgid "Additional Details"
+msgstr "Additional Details"
+
+msgctxt "Languages::carrier_shipping_rate_providers"
+msgid "Carrier Provider"
+msgstr "Carrier Provider"
+
+msgctxt "Languages::delete_pro_text"
+msgid "Do you want to delete all Products assosiated with this account?"
+msgstr "Do you want to delete all Products assosiated with this account?"
+
+msgctxt "Languages::wk_shopify.shopify_api_key_help"
+msgid "Enter the API key of your Shopify app here if you are using the private app, And if you using the custom app then enter the token value here."
+msgstr "Enter the API key of your Shopify app here if you are using the private app, And if you using the custom app then enter the token value here."
+
+msgctxt "Languages::wk_shopify.shopify_secret_key_help"
+msgid "Enter Password here if you are using the private app, And if you are using the custom app then use "custom" in the input"
+msgstr "Enter Password here if you are using the private app, And if you are using the custom app then use "custom" in the input"
+
+msgctxt "Languages::wk_shopify.domain_name_help"
+msgid "Enter domain name here.For ex. (shopname.myshopify.com)"
+msgstr "Enter domain name here.For ex. (shopname.myshopify.com)"
+
+msgctxt "Languages::wk_shopify.shop_name_help"
+msgid "Any name of your choice."
+msgstr "Any name of your choice."
+
+msgctxt "Languages::default_cscart_category_help"
+msgid "Set Default category of cs cart. Product will be imported in this category in case you won't mapped their categories."
+msgstr "Set Default category of cs cart. Product will be imported in this category in case you won't mapped their categories."
+
+msgctxt "Languages::shopify_currency_help"
+msgid "Set shopify currency here."
+msgstr "Set shopify currency here."
+
+msgctxt "Languages::close_shopify_order_help"
+msgid "Set order status on which you want to close shopify order too."
+msgstr "Set order status on which you want to close shopify order too."
+
+msgctxt "Languages::cancel_shopify_order_help"
+msgid "Set order status on which you want to cancel shopify order too."
+msgstr "Set order status on which you want to cancel shopify order too."
+
+msgctxt "Languages::payment_processor_help"
+msgid "Processor payment in which order get Imported.Please note that it must be offline type."
+msgstr "Processor payment in which order get Imported.Please note that it must be offline type."
+
+msgctxt "Languages::order_place"
+msgid "Order Placed"
+msgstr "Order Placed"
+
+msgctxt "Languages::registerhook"
+msgid "Register Hook"
+msgstr "Register Hook"
+
+msgctxt "Languages::products_successfully_sync"
+msgid "Product Successfully Sync"
+msgstr "Product Successfully Sync"
+
+msgctxt "Languages::closed"
+msgid "Closed"
+msgstr "Closed"
+
+msgctxt "Languages::cscart_category_id"
+msgid "Cs-cart Category Id"
+msgstr "Cs-cart Category Id"
+
+msgctxt "Languages::shopify_shipping.map_shipping"
+msgid "Shopify Shipping"
+msgstr "Shopify Shipping"
+
+msgctxt "Languages::order_already_exported"
+msgid "Order is already exported on the Shopify site with Order id  = "
+msgstr "Order is already exported on the Shopify site with Order id  = "
+
+msgctxt "Languages::order_already_updated"
+msgid "Order updated Successfully on the Shopify site with Order id  = "
+msgstr "Order updated Successfully on the Shopify site with Order id  = "
+
+msgctxt "Languages::"
+msgid ""
+msgstr ""
+
+msgctxt "Languages::"
+msgid ""
+msgstr ""
+
+msgctxt "Languages::"
+msgid ""
+msgstr ""
+
+msgctxt "Languages::"
+msgid ""
+msgstr ""
+
+msgctxt "Languages::"
+msgid ""
+msgstr ""

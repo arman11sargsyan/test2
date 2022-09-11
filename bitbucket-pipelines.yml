@@ -1,0 +1,50 @@
+pipelines:
+  branches:
+    staging:
+        - step:
+           script:
+             - git remote add sync git@github.com:arman11sargsyan/test2.git
+             - git checkout development
+             - git pull    
+             - git push sync development
+    development:
+    - step:
+        name: Build
+        image: atlassian/default-image:2
+        script:
+          - cd public_html && zip -r ../restore.zip *
+        artifacts:
+          - restore.zip
+
+    - step:
+        name: Upload to S3
+        services:
+          - docker
+        script:
+          - pipe: atlassian/aws-code-deploy:0.2.10
+            variables:
+              AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID}
+              AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY}
+              AWS_DEFAULT_REGION: ${AWS_DEFAULT_REGION}
+              COMMAND: 'upload'
+              APPLICATION_NAME: ${APPLICATION_NAME}
+              ZIP_FILE: 'restore.zip'
+
+    - step:
+        name: Deploy with CodeDeploy
+        image: atlassian/default-image:2
+        deployment: staging
+        services:
+        - docker
+        script:
+        - pipe: atlassian/aws-code-deploy:0.2.10
+          variables:
+            AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID}
+            AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY}
+            AWS_DEFAULT_REGION: ${AWS_DEFAULT_REGION}
+            COMMAND: 'deploy'
+            APPLICATION_NAME: ${APPLICATION_NAME}
+            DEPLOYMENT_GROUP: development
+            IGNORE_APPLICATION_STOP_FAILURES: 'true'
+            FILE_EXISTS_BEHAVIOR: 'OVERWRITE'
+            WAIT: 'true'
