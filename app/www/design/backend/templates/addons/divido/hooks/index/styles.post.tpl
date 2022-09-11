@@ -1,1 +1,0 @@
-{style src="addons/divido/styles.less"}

@@ -1,1 +1,0 @@
-{style src="addons/recaptcha/styles.less"}

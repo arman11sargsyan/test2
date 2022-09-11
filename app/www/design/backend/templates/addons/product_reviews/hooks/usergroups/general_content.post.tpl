@@ -1,1 +1,0 @@
-{script src="js/addons/product_reviews/backend/usergroup_privileges.js"}

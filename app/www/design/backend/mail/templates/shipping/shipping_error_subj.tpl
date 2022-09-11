@@ -1,1 +1,0 @@
-{__("request_error_information_title")}

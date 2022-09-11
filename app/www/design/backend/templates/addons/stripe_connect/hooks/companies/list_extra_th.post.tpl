@@ -1,1 +1,0 @@
-<th title="{__("stripe_connect.stripe_connect")}">{__("stripe_connect.stripe_connect_short")}</th>

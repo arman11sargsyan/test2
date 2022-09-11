@@ -1,1 +1,0 @@
-{style src="addons/suppliers/suppliers.less"}

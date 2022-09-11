@@ -1,1 +1,0 @@
-{include file="addons/gdpr/componentes/agreement_checkbox.tpl" type="call_requests" agreement_required=true}

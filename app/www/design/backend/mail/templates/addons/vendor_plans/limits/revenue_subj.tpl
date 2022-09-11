@@ -1,1 +1,0 @@
-{__("vendor_plans.revenue_exceeded_subj")}

@@ -1,1 +1,0 @@
-{__("call_requests")}

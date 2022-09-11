@@ -1,1 +1,0 @@
-{$payment.vendor}: {__("vendor_payouts.new_payout_issued")}

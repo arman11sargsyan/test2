@@ -1,1 +1,0 @@
-{$quick_view_additional_container=$quick_view_additional_container|cat:",product_vendor_communication_thread_form" scope=parent}

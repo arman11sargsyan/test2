@@ -1,1 +1,0 @@
-{script src="js/addons/email_marketing/func.js"}
