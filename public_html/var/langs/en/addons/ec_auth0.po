@@ -1,0 +1,37 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::ec_auth0"
+msgid "Ecommand: Auth0"
+msgstr "Ecommand: Auth0"
+
+msgctxt "Addons::description::ec_auth0"
+msgid "Auth0 Integration addon"
+msgstr "Auth0 Integration addon"
+
+msgctxt "Languages::auth0.error_password_content_good_policy"
+msgid "Good: at least 8 characters including at least 3 of the following 4 types of characters: a lower-case letter, an upper-case letter, a number, a special character (such as !@#$%^&*)."
+msgstr "Good: at least 8 characters including at least 3 of the following 4 types of characters: a lower-case letter, an upper-case letter, a number, a special character (such as !@#$%^&*)."
+
+msgctxt "Languages::auth0.error_password_content_fair_policy"
+msgid "Fair: at least 8 characters including a lower-case letter, an upper-case letter, and a number."
+msgstr "Fair: at least 8 characters including a lower-case letter, an upper-case letter, and a number."
+
+msgctxt "Languages::auth0.vendor_uuid"
+msgid "Vendor UUID"
+msgstr "Vendor UUID"
+
+msgctxt "Languages::auth0.vendor_info"
+msgid "Auth0 Vendor Information"
+msgstr "Auth0 Vendor Information"
+
+msgctxt "Languages::auth0.user_info"
+msgid "Auth0 User Information"
+msgstr "Auth0 User Information"
+
+msgctxt "Languages::auth0.user_uuid"
+msgid "User UUID"
+msgstr "User UUID"

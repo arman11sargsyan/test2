@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>wk_shopify_connector</id>
+    <version>1.2</version>
+    <priority>42949672944554</priority>
+    <position>0</position>
+    <has_icon>Y</has_icon>
+    <status>active</status>
+    <supplier>Webkul Software Pvt. Ltd.</supplier>
+    <supplier_link>https://store.webkul.com/CS-Cart.html</supplier_link>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>en</default_language>
+    <compatibility>
+     <core_edition>MULTIVENDOR,ULTIMATE</core_edition>
+    </compatibility>
+    <functions>
+        <item for="install">fn_wk_shopify_install</item>
+    </functions>
+      <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="order_status_to_stop_order">
+                        <type>multiple select</type>
+                        <variants/>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item for="install">DROP TABLE IF EXISTS ?:wk_shopify_store;</item>
+        <item for="install">
+			CREATE TABLE IF NOT EXISTS `?:wk_shopify_store` (
+                `shop_id` mediumint(8) unsigned NOT NULL AUTO_INCREMENT,
+                `shopify_shop_id` int(11) NOT NULL,
+                `domain_name` varchar(255) NOT NULL,
+                `shop_name` varchar(255) NOT NULL,
+                `api_key` varchar(255) NOT NULL,
+                `api_secret` varchar(255) NOT NULL,
+                `company_id` int(11) NOT NULL,
+                `status` char(1) NOT NULL default 'A',
+                `timestamp` int(11) ,
+                `webhook_id` varchar(255) NOT NULL default 0,
+                `shopify_currency_code` char(3) NOT NULL default 0,
+                `default_cscart_category_id` int(11) NOT NULL default 0, 
+                `default_payment` int(11) NOT NULL default 0, 
+                `default_shipping` int(11) NOT NULL default 0, 
+                `order_close_status` char(1) , 
+                `order_cancel_status` char(1) ,
+                `wk_data_for_variaton_one_or_not` char(3) NOT NULL default 'Y',
+                `wk_shopify_draft_product_import` char(3) NOT NULL default 'A', 
+                PRIMARY KEY (`shop_id`)
+			) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:wk_shopify_store;</item>
+        <item for="install">DROP TABLE IF EXISTS ?:wk_shopify_category_map;</item>
+        <item for="install">
+			CREATE TABLE IF NOT EXISTS `?:wk_shopify_category_map` (
+                `id` int(11) NOT NULL AUTO_INCREMENT,
+                `category_id` int(15) NOT NULL,
+                `shopify_collection_id` varchar(255) NOT NULL,
+                `shopify_collection` varchar(255) NOT NULL,
+                `account_id` int(10) NOT NULL,
+                PRIMARY KEY (`id`)
+			) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:wk_shopify_category_map;</item>
+
+        <!-- <item>DROP TABLE IF EXISTS ?:wk_shopify_product_map;</item>
+		<item>
+			CREATE TABLE IF NOT EXISTS `?:wk_shopify_product_map` (
+                `account_id` int(11) NOT NULL,
+                `product_id` bigint(15) NOT NULL,
+                `shopify_variation_id` bigint(15) NOT NULL,
+                `map` char(1) NOT NULL DEFAULT 'Y',
+                PRIMARY KEY (`account_id`,`product_id`)
+			) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=0;
+		</item>
+		<item for="uninstall">DROP TABLE IF EXISTS ?:wk_shopify_product_map;</item> -->
+
+        <item for="install">DROP TABLE IF EXISTS ?:wk_shopify_feature_map;</item>
+		<item for="install">
+			CREATE TABLE IF NOT EXISTS `?:wk_shopify_feature_map` (
+                `id` int(11) NOT NULL AUTO_INCREMENT,
+                `account_id` int(11) NOT NULL,
+                `product_id` bigint(15) NOT NULL,
+                `shopify_product_id` bigint(15) NOT NULL,
+                `shopify_option_id` bigint(15) NOT NULL,
+                `csart_feature_id` bigint(15) NOT NULL,
+                PRIMARY KEY (`id`)
+			) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
+		</item>
+		<item for="uninstall">DROP TABLE IF EXISTS ?:wk_shopify_feature_map;</item> 
+
+        <item for="install">DROP TABLE IF EXISTS ?:wk_shopify_products_map;</item>
+		<item for="install">
+			CREATE TABLE IF NOT EXISTS `?:wk_shopify_products_map` (
+                `id` int(11) NOT NULL AUTO_INCREMENT,            
+                `account_id` int(11) NOT NULL,
+                `parent_product_id` bigint(15) NOT NULL,
+                `product_id` bigint(15) NOT NULL,
+                `shopify_product_id` bigint(15) NOT NULL,
+                `shopify_variation_id` bigint(15) NOT NULL,
+                `combination_key` bigint(15) NOT NULL,
+                PRIMARY KEY (`id`)
+			) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
+		</item>
+		<item for="uninstall">DROP TABLE IF EXISTS ?:wk_shopify_products_map;</item>
+
+        <item for="install">
+            ALTER TABLE ?:products ADD `shopify_product_id` BIGINT(20) unsigned NOT NULL default 0;
+        </item>
+        <item for="install">
+            ALTER TABLE ?:images_links CHANGE `position` `position` bigint(50) NOT NULL DEFAULT '0' AFTER `type`, COMMENT='';
+        </item>
+        <item for="install">
+            ALTER TABLE ?:products ADD `shopify_account_id` INT(11) unsigned NOT NULL default 0;
+        </item>
+        <item for="install">
+            ALTER TABLE ?:products ADD `shopify_is_parent` char(1) NOT NULL DEFAULT 'Y';
+        </item>
+        <item for="uninstall">
+            ALTER TABLE ?:products DROP `shopify_product_id`;
+        </item>
+
+        <item for="uninstall">            
+            ALTER TABLE ?:products DROP `shopify_account_id`;
+        </item>
+        <item for="install">
+            ALTER TABLE ?:shippings ADD `shopify_zone_id` BIGINT(20) unsigned NOT NULL default 0;
+        </item>
+        <item for="uninstall">
+            ALTER TABLE ?:shippings DROP `shopify_zone_id`
+        </item>
+
+         <item for="uninstall">
+            ALTER TABLE ?:products DROP `shopify_is_parent`;
+        </item>
+
+        <item for="install">DROP TABLE IF EXISTS ?:wk_shopify_order_map;</item>
+        <item for="install"> 
+			CREATE TABLE IF NOT EXISTS `?:wk_shopify_order_map` (
+                `id` int(11) NOT NULL AUTO_INCREMENT,
+                `account_id` int(11) NOT NULL,
+                `order_id` bigint(15) NOT NULL,
+                `shopify_order_total` decimal(12,2) NOT NULL,
+                `financial_status` text NULL,
+                `currency` char(3) NULL,
+                `shopify_order_id` text NULL,
+                PRIMARY KEY (`id`)
+			) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:wk_shopify_order_map;</item>
+
+        <item editions="MULTIVENDOR">REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('manage_wk_shopify_connector', 'Y', 'addons');</item>
+        <item editions="MULTIVENDOR">REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('view_wk_shopify_connector', 'Y', 'addons');</item>
+        <item for="uninstall" editions="MULTIVENDOR">DELETE FROM ?:privileges WHERE privilege LIKE 'manage_wk_shopify_connector' OR privilege LIKE 'view_wk_shopify_connector'</item>
+
+    </queries>
+</addon>

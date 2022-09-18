@@ -1,0 +1,149 @@
+[aria-describedby^=ec_vendor_agreement_dialog]{
+    background: #FFFFFF !important;
+    border-radius: 20px !important;
+    @media(min-width: 768px){
+        // width: 600px !important;
+        // min-height: 500px;
+    } 
+    &.dialog-auto-sized .object-container {
+        padding-bottom: 40px;
+        height: auto !important;
+    }
+    .ui-dialog-titlebar{
+        display: none !important;
+    }
+    .ec_vendor_agree_form{
+        padding: 25px 35px 10px;
+        margin: 0 !important;
+        @media(max-width: 768px){
+            padding: 20px 20px 10px;
+        }
+        input[type="checkbox"]{
+            margin-top: 0 !important;
+        }
+        .ec_logo_top{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 15px 0;
+        }
+        .ec_welcome_text{
+            font-family: 'Maax';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 26px;
+            line-height: 140%;
+            color: #232D32;
+            text-align: center;
+            margin: 40px 0 5px;
+        }
+        .ec_agreement_subheader{
+            font-family: 'Maax-regular';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 140%;
+            text-align: center;
+            color: #232D32;
+        }
+        .ec_checkbox_div{
+            max-width: 365px;
+            margin: 35px auto;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            .help-inline{
+                display: none !important;
+            }
+            .ec_agreement_text{
+                font-family: 'Maax-regular';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 140%;
+                color: #232D32;
+                a{
+                    font-family: 'Maax';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 140%;
+                    color: #FE9352;
+                }
+            }
+        }
+
+        .ec_label{
+            visibility: visible;
+            label{
+                font-family: 'Maax-regular';
+                font-style: normal;
+                font-size: 14px;
+                line-height: 140%;
+                text-align: center;
+                color: #FA465B;
+                margin: 30px 0 0;
+                margin-top: 20px;
+                padding: 0;
+                &:after, &:before{
+                    display: none;
+                }
+                background: transparent;
+            }
+        }
+        .ec_label:not(.error){
+            visibility: hidden;
+        }
+        
+
+        .ec_buttons_container .ec_btn_onboard{
+            max-width: 365px;
+            margin: 0px;
+            background: #73FE8B;
+            border: 0;
+            border-radius: 5px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 140%;
+            color: #567277;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: ~'calc(100% - 15px)';
+            position: relative;
+            &:after{
+                position: absolute;
+                content: "";
+                border-style: solid;
+                border-width: 30px 15px;
+                border-radius: 7px;
+                border-color: transparent transparent transparent #73FE8B;
+                left: ~'calc(100% - 2px)';
+                top: 50%;
+                margin-top: -30px;
+            }
+            font-family: 'Maax';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 140%;
+            text-align: center;
+            color: #232D32;
+        }
+        .ec_logout{
+            text-align: center;
+            padding-top: 15px;
+            a{
+                font-family: 'Maax-regular';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 140%;
+                text-align: center;
+                color: #000000;
+            }
+        }
+    }
+}

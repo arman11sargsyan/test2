@@ -1,0 +1,16 @@
+# Applications
+*.app
+*.exe
+*.war
+
+# Large media files
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
+
+/public_html/var/cache
+/public_html/var/backups
+/public_html/images

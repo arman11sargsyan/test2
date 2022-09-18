@@ -1,0 +1,1 @@
+<input type="hidden" name="product_data[options_type]" value="P">

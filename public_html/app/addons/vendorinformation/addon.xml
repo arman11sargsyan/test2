@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+   <id>vendorinformation</id>
+   <version>1.0</version>
+   <priority>999999999</priority>
+   <position>0</position>
+   <status>active</status>
+   <has_icon>Y</has_icon>
+   <default_language>en</default_language>
+   <supplier>Alliance Technologies</supplier>
+   <supplier_link>https://www.alliancetechnologies.co.uk/</supplier_link>
+   <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+   <queries> 
+   <item>ALTER TABLE `?:companies` ADD `company_golive` INT NOT NULL COMMENT '1 for golive', ADD `company_golive_date` VARCHAR(250) NOT NULL AFTER `company_golive`;</item>
+		<item>ALTER TABLE `?:companies` ADD `disapproved_resason` VARCHAR(255) NOT NULL; </item>
+
+		<item>INSERT INTO `?:profile_field_sections` (`section_id`, `code`, `position`, `status`) VALUES (NULL, 'Y', '4', 'A');</item>
+		<item>INSERT INTO `?:profile_field_sections` (`section_id`, `code`, `position`, `status`) VALUES (NULL, 'V', '5', 'A');</item>
+		
+		
+		<item for="uninstall">ALTER TABLE  `?:companies` DROP `company_golive`</item>
+		<item for="uninstall">ALTER TABLE  `?:companies` DROP `company_golive_date`</item>
+		<item for="uninstall">ALTER TABLE  `?:companies` DROP `disapproved_resason`</item>
+    </queries>
+
+    <email_templates scheme="1.0">
+        <templates>
+            <item>
+            <code><![CDATA[ec_vendor_request.received]]></code>
+            <area><![CDATA[A]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ __("ec_vendor_request.request_received") }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header") }}
+            <br>
+            {{ __("ec_vendor_request.request_received") }}
+            <br>
+            {{ snippet("footer") }}]]>
+            </default_template>
+            <params_schema/>
+            <params/>
+            <addon/>
+            <name>
+                <en><![CDATA[Vendor Approval Request: Request Received]]></en>
+            </name>
+            </item>
+
+            <item>
+            <code><![CDATA[ec_vendor_request.approved]]></code>
+            <area><![CDATA[A]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ __("ec_vendor_request.request_approved") }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header") }}
+            <br>
+            {{ __("ec_vendor_request.request_approved") }}
+            <br>
+            {{ snippet("footer") }}]]>
+            </default_template>
+            <params_schema/>
+            <params/>
+            <addon/>
+            <name>
+                <en><![CDATA[Vendor Approval Request: Request Approved]]></en>
+            </name>
+            </item>
+
+            <item>
+            <code><![CDATA[ec_vendor_request.disapproved]]></code>
+            <area><![CDATA[A]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ __("ec_vendor_request.request_disapproved") }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header") }}
+            <br>
+            {{ __("ec_vendor_request.request_disapproved") }}
+            <br>
+            {{ snippet("footer") }}]]>
+            </default_template>
+            <params_schema/>
+            <params/>
+            <addon/>
+            <name>
+                <en><![CDATA[Vendor Approval Request: Request Disapproved]]></en>
+            </name>
+            </item>
+        </templates>
+    </email_templates>
+</addon>

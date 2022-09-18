@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>wk_woocommerce</id>
+    <version>1.2</version>
+    <priority>429400</priority>
+    <position>0</position>
+    <has_icon>Y</has_icon>
+    <status>active</status>
+    <default_language>en</default_language>
+     <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <supplier>Webkul Software Pvt Ltd</supplier>
+    <supplier_link>https://store.webkul.com/CS-Cart.html</supplier_link>
+    <authors>
+        <author>
+            <name>Webkul Pvt. Ltd.</name>
+            <email>support@webkul.com</email>
+            <url>https://store.webkul.com</url>
+        </author>
+    </authors>
+    <functions>
+        <item for="install">fn_wk_woocommerce_install</item>
+    </functions>
+    <queries>
+        <item>DROP TABLE IF EXISTS ?:wk_woocommerce_store;</item>
+        <item>
+			CREATE TABLE IF NOT EXISTS `?:wk_woocommerce_store` (
+                `shop_id` mediumint(8) unsigned NOT NULL AUTO_INCREMENT,
+                `store_url` varchar(255) NOT NULL,
+                `app_name` varchar(255) NOT NULL,
+                `consumer_key` varchar(255) NOT NULL,
+                `consumer_secret` varchar(255) NOT NULL,
+                `key_id` varchar(255) NOT NULL,
+                `company_id` int(11) NOT NULL,
+                `status` char(1) NOT NULL DEFAULT 'A',
+                `default_currency_code` char(3) NOT NULL,
+                `default_cscart_category_id` int(11) NOT NULL DEFAULT '0',
+                `default_payment` int(11) NOT NULL DEFAULT '0',
+                `default_shipping` int(11) NOT NULL DEFAULT '0',
+                `default_order_status` char(1) DEFAULT NULL,
+                `order_webhook_id` int(11) NOT NULL,
+                `product_create_webhook_id` int(11) NOT NULL,
+                `product_update_webhook_id` int(11) NOT NULL,
+                `timestamp` int(11) DEFAULT NULL,
+                PRIMARY KEY (`shop_id`)
+			) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:wk_woocommerce_store;</item>
+
+        <item>DROP TABLE IF EXISTS ?:wk_woocommerce_category_map;</item>
+		<item>
+			CREATE TABLE IF NOT EXISTS `?:wk_woocommerce_category_map` (
+                `id` int(11) NOT NULL AUTO_INCREMENT,
+                `category_id` int(15) NOT NULL,
+                `woocommerce_category_id` int(15) NOT NULL,
+                `woocommerce_category` varchar(255) NOT NULL,
+                `account_id` int(10) NOT NULL,
+                PRIMARY KEY (`id`)
+			) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=0;
+		</item>
+		<item for="uninstall">DROP TABLE IF EXISTS ?:wk_woocommerce_category_map;</item>
+
+        <item>DROP TABLE IF EXISTS ?:wk_woocommerce_shipping_map;</item>
+		<item>
+			CREATE TABLE IF NOT EXISTS `?:wk_woocommerce_shipping_map` (
+                `id` int(11) NOT NULL AUTO_INCREMENT,
+                `shipping_id` int(15) NOT NULL,
+                `woocommerce_shipping_id` varchar(255) NOT NULL,
+                `woocommerce_shipping` varchar(255) NOT NULL,
+                `account_id` int(10) NOT NULL,
+                PRIMARY KEY (`id`)
+			) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=0;
+		</item>
+		<item for="uninstall">DROP TABLE IF EXISTS ?:wk_woocommerce_shipping_map;</item>
+
+        <item>DROP TABLE IF EXISTS ?:wk_woocommerce_payment_map;</item>
+		<item>
+			CREATE TABLE IF NOT EXISTS `?:wk_woocommerce_payment_map` (
+                `id` int(11) NOT NULL AUTO_INCREMENT,
+                `payment_id` int(15) NOT NULL,
+                `woocommerce_payment_id` varchar(255) NOT NULL,
+                `woocommerce_payment` varchar(255) NOT NULL,
+                `account_id` int(10) NOT NULL,
+                PRIMARY KEY (`id`)
+			) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=0;
+		</item>
+		<item for="uninstall">DROP TABLE IF EXISTS ?:wk_woocommerce_payment_map;</item>
+
+        <item>DROP TABLE IF EXISTS ?:wk_woocommerce_attribute_map;</item>
+		<item>
+			CREATE TABLE IF NOT EXISTS `?:wk_woocommerce_attribute_map` (
+                `id` int(11) NOT NULL AUTO_INCREMENT,
+                `feature_id` int(15) NOT NULL,
+                `woocommerce_attribute_id` varchar(255) NOT NULL,
+                `woocommerce_attribute` varchar(255) NOT NULL,
+                `account_id` int(10) NOT NULL,
+                `woocommerce_product_id` int(11) NOT NULL,
+                `product_id` int(11) NOT NULL,
+                PRIMARY KEY (`id`)
+			) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=0;
+		</item>
+		<item for="uninstall">DROP TABLE IF EXISTS ?:wk_woocommerce_attribute_map;</item>
+
+        <item>DROP TABLE IF EXISTS ?:wk_woocommerce_product_map;</item>
+		<item>
+			CREATE TABLE IF NOT EXISTS `?:wk_woocommerce_product_map` (
+                `id` int(11) NOT NULL AUTO_INCREMENT,
+                `product_id` int(15) NOT NULL,
+                `parent_product_id` int(11) NOT NULL,
+                `woocommerce_product_id` int(15) NOT NULL,
+                `woocommerce_variation_id` bigint(15) NOT NULL,
+                `amount` int(10) NOT NULL,
+                `price` decimal(10,2) NOT NULL,
+                `list_price` decimal(10,2) NOT NULL,
+                `status` varchar(255) NOT NULL,
+                `account_id` int(10) NOT NULL,
+                `combination_key` bigint(15) NOT NULL,
+                PRIMARY KEY (`id`)
+			) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=0;
+		</item>
+		<item for="uninstall">DROP TABLE IF EXISTS ?:wk_woocommerce_product_map;</item>
+
+        <item>DROP TABLE IF EXISTS ?:wk_woocommerce_product_variation;</item>
+        <item>
+            CREATE TABLE IF NOT EXISTS `?:wk_woocommerce_product_variation` (
+                `id` int(11) NOT NULL AUTO_INCREMENT,
+                `product_id` int(10) NOT NULL,
+                `parent_product_id` int(10) NOT NULL,
+                `woocommerce_product_id` int(10) NOT NULL,
+                `variation_id` int(10) NOT NULL,
+                `amount` int(10) NOT NULL,
+                `price` decimal(10,2) NOT NULL,
+                `list_price` decimal(10,2) NOT NULL,
+                `account_id` int(10) NOT NULL,
+                UNIQUE KEY (`account_id`,`woocommerce_product_id`, `product_id`, `variation_id`),
+                PRIMARY KEY (`id`)
+            ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=0;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:wk_woocommerce_product_variation;</item>
+
+        <item>DROP TABLE IF EXISTS ?:wk_woocommerce_order_map;</item>
+        <item>
+			CREATE TABLE IF NOT EXISTS `?:wk_woocommerce_order_map` (
+                `id` int(11) NOT NULL AUTO_INCREMENT,
+                `account_id` int(11) NOT NULL,
+                `order_id` bigint(15) NOT NULL,
+                `woocommerce_order_total` decimal(12,2) NOT NULL,
+                `woo_order_status` text NULL,
+                `currency` char(3) NULL,
+                `woocommerce_order_id` text NULL,
+                PRIMARY KEY (`id`)
+			) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:wk_woocommerce_order_map;</item>
+    </queries>
+</addon>
