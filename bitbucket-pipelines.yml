@@ -1,10 +1,10 @@
 pipelines:
   branches:
-    master:
+    staging:
         - step:
            script:
              - git remote add stage-d git@github.com:arman11sargsyan/test2.git
-             - git checkout --orphan staging
+             - git checkout staging
              - git pull    
              - git push stage-d staging
     development:
